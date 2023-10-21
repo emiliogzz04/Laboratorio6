@@ -7,8 +7,11 @@
 
     </head>
 
+    <link rel="stylesheet" href="./css/index.css">
+
     <body>
-        <h1>Página 1</h1>
+        <div id ="pagina1">
+          <h1>Página 1</h1>
         <h2>Guitarras electricas</h2>
         
         <p>Las guitarras eléctricas son un tipo de guitarra que se diferencia de las 
@@ -38,7 +41,7 @@
         la música a lo largo de las décadas. <br> Desde las icónicas Fender Stratocaster y Gibson Les Paul hasta modelos más 
         contemporáneos, estas guitarras siguen siendo esenciales para músicos de todo el mundo.</p>
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="width: 30%; margin-left: 30%;"">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -46,13 +49,13 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="guitarra1.jpg" class="d-block w-100" alt="...">
+                <img src="./imagenes/guitarra1.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="guitarra2.jpg" class="d-block w-100" alt="...">
+                <img src="./imagenes/guitarra2.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="guitarra3.jpg" class="d-block w-100" alt="...">
+                <img src="./imagenes/guitarra3.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -66,12 +69,13 @@
           </div>
           <br>
 
-        <div style="margin-left: 36%;">
+        <div id = "botones1">
             <a class="btn btn-primary" href="index.html" role="button">Index</a>
             <a class="btn btn-warning" href="pagina2.html" role="button">Página 2</a>
             <a class="btn btn-danger" href="pagina3.html" role="button">Página 3</a>
         </div>
         <br>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -1,0 +1,110 @@
+body
+{
+    background-color:black;
+}
+
+/*Index*/
+#index
+{
+    background-color: blue;
+}
+h1
+{
+    color: orangered;
+    text-align: center;
+}
+
+.texto
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 150%;
+}
+
+#playa
+{
+    width: 25%;
+    margin-left: 38%;
+}
+
+.link
+{
+    color:black;
+    font-weight: bold;
+    margin-left: 21.5%;
+}
+
+/*Página 1*/
+#pagina1
+{
+    background-color: wheat;
+}
+
+#botones1
+{
+    margin-left: 36%;
+}
+
+#carouselExampleIndicators
+{
+    width: 30%; 
+    margin-left: 30%;
+}
+/*Página 2*/
+#pagina2
+{
+    background-color: wheat;
+    text-align: center;
+}
+.card
+{
+    width: 18rem;
+    margin-left: 40%;
+}
+
+.botones
+{
+    margin-left: 3%;
+}
+
+#torre2
+{
+    width: 20%; 
+    margin-left: 2%;
+}
+
+#torre3
+{
+    width: 20%; 
+    margin-left: 10%;
+}
+
+/*Página 3*/
+#pagina3
+{
+    background-color: wheat;
+}
+
+#smartphone2
+{
+    width: 20%; 
+    margin-left: 35%;
+}
+
+#smartphone
+{
+    width: 20%; 
+    margin-left: 40%;
+}
+
+#smartphone3
+{
+    width: 20%; 
+    margin-left: 35%;
+}
+
+#botones3
+{
+    margin-left: 40%;
+}
